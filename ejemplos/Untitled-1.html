@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web no apta para diabéticos</title>
+    <script src="https://kit.fontawesome.com/a4febeb5f7.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon_io/favicon-16x16.png">
+</head>
+<body>
+ <table border="1">
+     <tr>
+         <td>Tartas</td>
+         <td>Galletas</td>
+     </tr>
+     <tr>
+         <td>Tarta de chocolate</td>
+         <td>Chispas de chocolate</td>
+     </tr>
+     <tr>
+        <td>Tarta de queso</td>
+        <td>Vainilla</td>
+
+     </tr>
+     <tr></tr>
+
+    </table>
+
+    <table border="1">
+        <thead>
+            <th>Tartas:</th>
+            <th>Galletas:</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Tartas</td>
+            <td>Galletas</td>
+        </tr>
+        <tr>
+            <td>Tarta de chocolate</td>
+            <td>Chispas de chocolate</td>
+        </tr>
+        <tr>
+           <td>Tarta de queso</td>
+           <td>Vainilla</td>
+        </tr>
+        </tbody>
+   
+       </table> -->
+
+<nav>
+    <i class="fa-solid fa-cake-candles"></i>
+      <ul>
+        <li>
+            <a href="#tartas">Tartas</a>
+        </li>
+            <a href="#galletas">Galletas</a>
+        </li>
+        <li>
+            <a href="formulario.html">Contado</a>
+        </li></ul>
+</nav>
+<h2 id="tartas">Tartas</h2>
+<h2 id="galletas">Galletas</h2>
+
+<form action="">
+    <label for="fname">Nombre:</label>
+    <input type="text" id="fname" name="user_fname">
+
+    <label for="lname">Apellido:</label>
+    <input type="text" id="lname" name="user_lname">
+
+    <label for="user">Nombre de usuario:</label>
+    <input type="text" id="user" name="user_name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="user_email">
+
+    <label for="pwd">Contraseña:</label>
+    <input type="password" id="pwd" name="user_password">
+
+    <label for="b-date">Fecha de nacimiento:</label>
+    <input type="date" id="b-date" name="user_birth">
+
+    <label for="city">Ciudad:</label>
+    <select id="city" name="user_city">
+        <option value="mad">Madrid</option>
+        <option value="bcn">Barcelona</option>
+        <option value="val">Valencia</option>
+        <option value="grn">Granada</option>
+
+        <label for="vip">¿Quieres ser cliente VIP?</label>
+        <input type="checkbox" id="vip" name="user_vip">
+        <br>
+        <label for="message">Mensaje:</label>
+        <br>
+         <textarea  id="message" name="user_msg" cols="20" rows="5"></textarea>
+         <br>  
+       <input type="button" value="Registrarme" name="user_password">
+        <button type="submit">Registrarme</button>
+</form>
+</body>
+</html>
